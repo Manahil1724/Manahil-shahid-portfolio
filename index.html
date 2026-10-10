@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F4F0E6">
+<script>try{if(localStorage.getItem("ms-theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}</script>
+<title>Manahil Shahid | Graphic Designer and Visual Artist</title>
+<meta name="description" content="Manahil Shahid is a graphic designer and visual artist who has designed screen-ready visuals for 35 restaurant clients: kiosk screensavers, digital menu boards, logos and marketing videos.">
+<meta name="author" content="Manahil Shahid">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Manahil Shahid | Graphic Designer and Visual Artist">
+<meta property="og:description" content="Kiosk screensavers, digital menu boards, logos and marketing videos for 35 restaurant clients, plus ten original paintings and drawings.">
+<meta property="og:image" content="og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,500&family=Open+Sans:wght@400;600;700&display=swap">
+<link rel="preload" as="image" href="manahil-portrait.jpg">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Manahil Shahid","jobTitle":"Senior Operations Associate","worksFor":{"@type":"Organization","name":"AIO"},"alumniOf":{"@type":"CollegeOrUniversity","name":"BIC University (affiliated with Liverpool John Moores University)"},"email":"mailto:manahil11shahid@gmail.com","sameAs":["https://www.linkedin.com/in/manahil-shahid-37bb41322","https://www.instagram.com/manahilshahidkhan_/"],"knowsAbout":["Graphic Design","Digital Signage","Menu Board Design","Logo Design","Photo Retouching","Motion Graphics","UI/UX Design","Painting"]}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="curtain" id="curtain" aria-hidden="true"><span class="curtain__mark">MS</span></div>
+
+<header class="nav">
+  <div class="nav__in">
+    <a class="brand" href="#top" aria-label="Manahil Shahid, back to top"><span class="brand__mark" aria-hidden="true">MS</span><span class="brand__name">Manahil Shahid</span></a>
+    <nav class="nav__links" id="navLinks" aria-label="Sections">
+      <a href="#skills">Skills</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="nav__tools">
+      <button class="nav__quick" id="qvOpen" type="button" aria-haspopup="dialog"><span class="nav__quick-dot" aria-hidden="true"></span>Quick view</button>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false" aria-label="Switch to dark mode"><span aria-hidden="true"></span></button>
+      <button class="btn btn--sm nav__cv" type="button" data-cv aria-haspopup="dialog">View CV</button>
+    </div>
+    <button class="nav__menu" id="navMenu" type="button" aria-expanded="false" aria-controls="navLinks">Menu</button>
+  </div>
+  <span class="progress" id="progress" aria-hidden="true"></span>
+</header>
+
+<main id="main">
+
+<section class="hero" id="top">
+  <div class="hero__text">
+    <p class="hero__role hero__fade">Graphic Designer | Digital Signage and Menu Design</p>
+    <h1 class="hero__name" aria-label="Manahil Shahid"><span class="mask"><span>Manahil</span></span><span class="mask"><span>Shahid</span></span></h1>
+    <p class="hero__intro hero__fade">I design the screens restaurant customers see every day: kiosk screensavers, digital menu boards, logos and marketing videos, now live for 35 restaurant clients across the US. Software Engineering graduate, Gold Medalist and painter.</p>
+    <div class="hero__cta hero__fade">
+      <a class="btn btn--fill" href="#work">See my work</a>
+      <button class="btn" type="button" data-cv aria-haspopup="dialog">View CV</button>
+    </div>
+    <p class="hero__now hero__fade"><span class="dot" aria-hidden="true"></span>Senior Operations Associate at AIO, Islamabad</p>
+  </div>
+
+  <figure class="hero__photo">
+    <img src="manahil-portrait.jpg" alt="Portrait of Manahil Shahid" width="1000" height="1333">
+  </figure>
+</section>
+
+<section class="impact" aria-label="Key results">
+  <div class="wrap impact__row">
+    <div><b><span data-count="35">35</span></b><span>restaurant clients with my designs live on their screens</span></div>
+    <div><b>2 hours</b><span>to create menu images, down from a full working day</span></div>
+    <div><b>Gold Medal</b><span>BSc (Hons) Software Engineering</span></div>
+    <div><b>2024 to 2026</b><span>from Operations Intern to Senior Operations Associate</span></div>
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <div class="wrap skills__grid">
+    <div class="skills__text" data-reveal>
+      <p class="idx">01</p>
+      <p class="label">Skills and tools</p>
+      <h2 class="h2">What I design with</h2>
+      <p class="lead">Drag the globe to rotate it. Choose a type of skill to see everything in it, and where I've used each one.</p>
+      <div class="filters" id="filters" aria-label="Show one type of skill"></div>
+      <div class="panel" id="panel" aria-live="polite">
+        <p class="panel__hint">Choose a type above, or select any point on the globe.</p>
+      </div>
+    </div>
+    <div class="globe-wrap" id="orbit">
+      <canvas id="globe" role="img" aria-label="Interactive globe of design skills and tools. The same skills are listed beside it."></canvas>
+    </div>
+  </div>
+</section>
+
+
+<section class="projects" id="work">
+  <div class="wrap">
+    <header class="sec-head" data-reveal>
+      <div><p class="idx">02</p><p class="label">Selected work</p><h2 class="h2">From kitchens to screens</h2></div>
+      <p class="lead">My main work first, then the projects that shaped it. Open any of them to read the brief, my role, how I approached it and the result.</p>
+    </header>
+
+    <article class="feature on-dark" data-reveal>
+      <div>
+        <p class="feature__tag">AIO | Aug 2025 to present</p>
+        <h3>Making food look as good as it tastes</h3>
+        <p class="lead">Screens for 35 restaurants across the US, each designed to make the food look appetising and stay true to the restaurant's own brand.</p>
+        <div class="board" role="region" aria-label="What I create each week">
+          <div class="board__top"><p class="board__title">On the menu this week</p><span class="board__sub">Every week</span></div>
+          <ul class="menu">
+            <li><span class="menu__item">Kiosk screensavers</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__qty">3 to 5</span></li>
+            <li><span class="menu__item">Digital menu boards</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__qty">2 to 4</span></li>
+            <li><span class="menu__item">Marketing videos</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__qty">2 to 3</span></li>
+            <li><span class="menu__item">Logos and banners</span><span class="menu__dots" aria-hidden="true"></span><span class="menu__qty">As needed</span></li>
+          </ul>
+        </div>
+        <button class="btn btn--light" type="button" data-case="0">Read the case study</button>
+      </div>
+      <figure class="kiosk" aria-label="Food image shown on a self-service kiosk screen mock-up">
+        <div class="kiosk__unit"><div class="kiosk__screen"><img src="food-burger.jpg" alt="A burger with its layers floating apart: bun, tomato slices, melted cheese, patty and bun" width="935" height="1260" loading="lazy"><button class="kiosk__cta" type="button" data-case="0">Tap to start your order</button></div><span class="kiosk__reader" aria-hidden="true"></span></div>
+        <span class="kiosk__pole" aria-hidden="true"></span><span class="kiosk__base" aria-hidden="true"></span>
+        <figcaption>Food imagery on a kiosk screen mock-up</figcaption>
+      </figure>
+    </article>
+
+    <div class="cards cards--two">
+      <button class="pcard" type="button" data-case="1" data-reveal>
+        <span class="pcard__vis pcard__vis--ai"><span class="dial">
+          <svg class="dial__svg" viewBox="0 0 200 200" aria-hidden="true">
+            <circle cx="100" cy="100" r="78" class="dial__ring"/>
+            <g class="dial__ticks"><line x1="100" y1="16" x2="100" y2="28" transform="rotate(0 100 100)"/><line x1="100" y1="18" x2="100" y2="25" transform="rotate(30 100 100)"/><line x1="100" y1="18" x2="100" y2="25" transform="rotate(60 100 100)"/><line x1="100" y1="16" x2="100" y2="28" transform="rotate(90 100 100)"/><line x1="100" y1="18" x2="100" y2="25" transform="rotate(120 100 100)"/><line x1="100" y1="18" x2="100" y2="25" transform="rotate(150 100 100)"/><line x1="100" y1="16" x2="100" y2="28" transform="rotate(180 100 100)"/><line x1="100" y1="18" x2="100" y2="25" transform="rotate(210 100 100)"/><line x1="100" y1="18" x2="100" y2="25" transform="rotate(240 100 100)"/><line x1="100" y1="16" x2="100" y2="28" transform="rotate(270 100 100)"/><line x1="100" y1="18" x2="100" y2="25" transform="rotate(300 100 100)"/><line x1="100" y1="18" x2="100" y2="25" transform="rotate(330 100 100)"/></g>
+            <circle cx="100" cy="100" r="78" class="dial__arc" transform="rotate(-90 100 100)"/>
+            <line x1="100" y1="100" x2="100" y2="40" class="dial__hand"/>
+            <circle cx="100" cy="100" r="4" class="dial__pin"/>
+          </svg>
+          <span class="dial__text"><s>A full working day</s><b>2 hours</b><small>to create menu images</small></span>
+        </span></span>
+        <span class="pcard__body"><small>AIO, 2025 to 2026</small><h3>AI image tool</h3><p>The design team and I came up with the idea, then worked with the AI team to build it. Menu images now take 2 hours instead of a working day.</p><span class="pcard__open">Read the case study</span></span>
+      </button>
+      <a class="pcard" href="#gallery" data-reveal>
+        <span class="pcard__vis pcard__vis--art"><span class="fan" aria-hidden="true"><span class="fan__card" style="--c:#586852;--i:0"><i></i><em>01</em></span><span class="fan__card" style="--c:#273C96;--i:1"><i></i><em>02</em></span><span class="fan__card" style="--c:#482F34;--i:2"><i></i><em>03</em></span><span class="fan__card" style="--c:#E5CDB4;--i:3"><i></i><em>04</em></span><span class="fan__card" style="--c:#195AA0;--i:4"><i></i><em>05</em></span><span class="fan__card" style="--c:#C96339;--i:5"><i></i><em>06</em></span><span class="fan__card" style="--c:#82BEED;--i:6"><i></i><em>07</em></span><span class="fan__card" style="--c:#593E2E;--i:7"><i></i><em>08</em></span><span class="fan__card" style="--c:#BDAA9F;--i:8"><i></i><em>09</em></span><span class="fan__card" style="--c:#6E3432;--i:9"><i></i><em>10</em></span><span class="fan__pin"></span></span><span class="artcount"><b>10</b><small>original pieces</small></span></span>
+        <span class="pcard__body"><small>Personal work</small><h3>Paintings and drawings</h3><p>Ten original pieces, from starlit pines and winter forests to stormy seas and quiet portraits.</p><span class="pcard__open">Visit the gallery</span></span>
+      </a>
+    </div>
+
+    <div class="more" data-reveal>
+      <h3 class="more__title">More projects</h3>
+      <ol class="more__list">
+        <li><button type="button" data-case="2"><span class="more__year">2019</span><span class="more__name">Office mural</span><span class="more__ctx">VisionX</span><span class="more__go">Read</span></button></li>
+        <li><button type="button" data-case="3"><span class="more__year">2025</span><span class="more__name">Sign language recognition system</span><span class="more__ctx">Final year project</span><span class="more__go">Read</span></button></li>
+        <li><button type="button" data-case="4"><span class="more__year">Uni</span><span class="more__name">Shoe customisation website</span><span class="more__ctx">UI/UX and web</span><span class="more__go">Read</span></button></li>
+        <li><button type="button" data-case="5"><span class="more__year">Uni</span><span class="more__name">Sports management system</span><span class="more__ctx">Responsive web</span><span class="more__go">Read</span></button></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="process on-dark" id="process">
+  <div class="wrap">
+    <header class="sec-head" data-reveal>
+      <div><p class="idx">03</p><p class="label">Creative process</p><h2 class="h2">How a design gets made</h2></div>
+      <p class="lead">Give me a blank canvas and a little imagination, and I'll find a way to make something out of it. I'm not afraid to try something different, make mistakes or start over until it feels right.</p>
+    </header>
+    <div class="steps-wrap"><span class="steps-line" id="stepsLine" aria-hidden="true"></span>
+    <ol class="steps">
+      <li><h3>Understand the brief</h3><p>Turn the restaurant's requirements into a clear plan, with the internal team.</p></li>
+      <li><h3>Match the brand</h3><p>Start from the restaurant's own branding and the screens the design will run on.</p></li>
+      <li><h3>Explore and experiment</h3><p>Play with colours, layouts and type until an idea catches the eye.</p></li>
+      <li><h3>Refine every detail</h3><p>Retouch and composite in Photoshop so the food looks appetising and consistent.</p></li>
+      <li><h3>Deliver and learn</h3><p>Hand over deployment-ready assets, then use feedback to improve the next one.</p></li>
+    </ol>
+    </div>
+  </div>
+</section>
+
+<section class="exp" id="experience">
+  <div class="wrap">
+    <header class="exp__head" data-reveal>
+      <div><p class="idx">04</p><p class="label">Experience</p><h2 class="h2">Intern to senior in two years</h2></div>
+      <p class="lead">Three roles at AIO, each building on the last. Select a step to see what I did there.</p>
+    </header>
+    <div class="path" role="tablist" aria-label="Roles at AIO">
+      <button class="step" role="tab" aria-selected="false" aria-controls="detail" type="button"><small>May to Sep 2024</small><b>Operations Intern</b><span>Where it started</span></button>
+      <button class="step" role="tab" aria-selected="false" aria-controls="detail" type="button"><small>Aug 2025 to Aug 2026</small><b>Operations Associate</b><span>Design for 35 restaurants</span></button>
+      <button class="step" role="tab" aria-selected="true" aria-controls="detail" type="button"><small>Aug 2026 to present</small><b>Senior Operations Associate</b><span>Leading the night shift</span></button>
+    </div>
+    <article class="detail" id="detail" role="tabpanel" aria-live="polite">
+      <h3 id="dTitle">Senior Operations Associate</h3>
+      <p class="org" id="dOrg">AIO, restaurant technology | Aug 2026 to present</p>
+      <ul id="dList"></ul>
+    </article>
+    <div class="edu">
+      <div class="card"><small>Nov 2022 to May 2025</small><h3>BSc (Hons) Software Engineering, Gold Medal</h3><p>BIC University, affiliated with Liverpool John Moores University, Islamabad. Focus on UI/UX, human computer interaction and accessibility.</p></div>
+      <div class="card"><small>2017 to 2020</small><h3>Teaching, events and volunteering</h3><p>Teaching assistant and preschool co-teacher at Benchmark School, décor co-head at IYLO, and founder of the Aramesh charity initiative.</p></div>
+    </div>
+    <details class="earlier">
+      <summary>Earlier experience in full</summary>
+      <ul>
+        <li><b>O-Level English Teaching Assistant</b>, Benchmark School, Oct 2020 to Dec 2020</li>
+        <li><b>Co-Head, Décor Team and Media Team Member</b>, Roots Ivy International (IYLO), May 2020</li>
+        <li><b>Preschool Co-Teacher</b>, Benchmark School, Feb 2020 to May 2020</li>
+        <li><b>Mural project</b>, VisionX, Mar 2019 to May 2019</li>
+        <li><b>Founder and Head, Aramesh</b>, Feb 2017 to Jan 2018</li>
+      </ul>
+    </details>
+  </div>
+</section>
+
+<section class="about on-dark" id="about">
+  <div class="about__img" data-wipe><img class="float" src="art-weightless.jpg" alt="Drawing of an astronaut floating in space, in blue and white on black" width="938" height="1022" loading="lazy"></div>
+  <div class="about__text" data-reveal>
+    <p class="idx">05</p>
+    <p class="label">About me</p>
+    <h2 class="h2">Born to create</h2>
+    <p class="lead">I've always been an artist at heart, with a love for colours, creativity and bringing ideas to life. I'm a Software Engineering graduate and Gold Medalist who found a passion for graphic design along the way.</p>
+    <p class="lead">I've spent more than a year at AIO, after an internship there in 2024, designing for US-based restaurant brands, from logos and digital menu boards to marketing graphics. I love trying new things, exploring different styles and turning simple ideas into something creative.</p>
+    <ul class="knows">
+      <li><b>Night-shift lead</b><span>Trained 3 new team members with documented workflows</span></li>
+      <li><b>PKR <span data-count="800000">800,000</span></b><span>Raised through Aramesh, the charity I founded</span></li>
+      <li><b>Painter</b><span>Ten original pieces in the gallery below</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="room" id="gallery">
+  <div class="wrap">
+    <header class="room__head" data-reveal>
+      <div><p class="idx">06</p><p class="label">Gallery</p><h2 class="h2">Art through my eyes</h2></div>
+      <p class="lead">Art has always been my way of expressing things that I sometimes can't put into words. Some pieces are inspired by little moments in life, while others come straight from my imagination. Browse with the arrows or thumbnails, and select a piece to see it full screen.</p>
+    </header>
+    <div class="expo" id="expo" tabindex="-1">
+      <div class="expo__stage">
+        <button class="expo__view" id="expoView" type="button" aria-label="View this piece full screen"><img id="expoImg" alt=""></button>
+        <span class="expo__progress" aria-hidden="true"><i id="expoBar"></i></span>
+      </div>
+      <div class="expo__side">
+        <p class="expo__no" id="expoNo"></p>
+        <h3 class="expo__title" id="expoTitle"></h3>
+        <div class="expo__sw" id="expoSw" aria-label="Colour palette of this piece"></div>
+        <p class="expo__swhint">Select a colour to copy its code.</p>
+        <div class="expo__nav">
+          <button class="btn btn--sm" type="button" id="expoPrev" aria-label="Previous piece">Previous</button>
+          <button class="btn btn--sm" type="button" id="expoNext" aria-label="Next piece">Next</button>
+          <button class="btn btn--sm expo__play" type="button" id="expoPlay" aria-pressed="false">Play slideshow</button>
+        </div>
+        <button class="expo__full" type="button" id="expoFull">View full screen</button>
+      </div>
+      <ol class="expo__thumbs" id="expoThumbs" aria-label="All pieces">
+        <li><button class="thumb" type="button" data-title="After the Rain" data-sw="#252515,#404731,#586852" aria-label="After the Rain"><img src="art-after-the-rain.jpg" alt="Painting of a misty forest road with a car's headlights glowing" loading="lazy"></button></li>
+        <li><button class="thumb" type="button" data-title="Night Over the Pines" data-sw="#1E0C3D,#273C96,#E9EFC4,#3B2D53" aria-label="Night Over the Pines"><img src="art-night-over-the-pines.jpg" alt="Painting of a starry night sky glowing green, blue and violet above a pine forest" loading="lazy"></button></li>
+        <li><button class="thumb" type="button" data-title="Fragments of Imagination" data-sw="#482F34,#A0A08C,#757269,#585450" aria-label="Fragments of Imagination"><img src="art-fragments-of-imagination.jpg" alt="Textured painting of red and violet flowers rising from tall grass" loading="lazy"></button></li>
+        <li><button class="thumb" type="button" data-title="Lines of a Life" data-sw="#E5CDB4,#B89C8B,#3E4B5C,#28303A" aria-label="Lines of a Life"><img src="art-lines-of-a-life.jpg" alt="Portrait of an elderly man with a grey beard, drawn in fine strokes on black" loading="lazy"></button></li>
+        <li><button class="thumb" type="button" data-title="Winter Light" data-sw="#FDFBE4,#0C2655,#195AA0,#72ADDF" aria-label="Winter Light"><img src="art-winter-light.jpg" alt="Painting of a snowy forest in deep blues with a dark stream winding through" loading="lazy"></button></li>
+        <li><button class="thumb" type="button" data-title="Inner Weather" data-sw="#6FC3E8,#C96339,#2A0C0C,#8C3A2C" aria-label="Inner Weather"><img src="art-inner-weather.jpg" alt="Painting of a face formed from bursts of blue, orange and brown on black" loading="lazy"></button></li>
+        <li><button class="thumb" type="button" data-title="Through the Open Gates" data-sw="#82BEED,#DABA88,#BC945C,#7A4D36" aria-label="Through the Open Gates"><img src="art-through-the-open-gates.jpg" alt="Painting of a woman with a parasol walking through open iron gates toward a large house" loading="lazy"></button></li>
+        <li><button class="thumb" type="button" data-title="Whispers of Nature" data-sw="#F3F0E0,#28120E,#593E2E,#D0C5B1" aria-label="Whispers of Nature"><img src="art-whispers-of-nature.jpg" alt="Painting of a sailing ship on stormy waves under a full moon" loading="lazy"></button></li>
+        <li><button class="thumb" type="button" data-title="Through My Eyes" data-sw="#1A1110,#48302F,#BDAA9F,#A0887A" aria-label="Through My Eyes"><img src="art-through-my-eyes.jpg" alt="Detailed drawing of an eye" loading="lazy"></button></li>
+        <li><button class="thumb" type="button" data-title="Beyond Reality" data-sw="#6E3432,#89524B,#010001,#BCB19C" aria-label="Beyond Reality"><img src="art-beyond-reality.jpg" alt="Painting of a figure seen from behind facing an explosion of coloured paint splatter" loading="lazy"></button></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="contact on-dark" id="contact">
+  <div class="wrap" data-reveal>
+    <p class="idx">07</p>
+    <p class="label">Contact</p>
+    <h2 class="h2">Got an idea? I've got the creativity.</h2>
+    <p class="lead">Let's make something worth remembering.</p>
+    <div class="mail"><a href="mailto:manahil11shahid@gmail.com">manahil11shahid@gmail.com</a><button class="btn btn--light btn--sm" type="button" id="copyEmail">Copy email</button><button class="btn btn--light btn--sm" type="button" data-cv aria-haspopup="dialog">View CV</button><a class="btn btn--light btn--sm" href="Manahil-Shahid-CV.pdf" download="Manahil-Shahid-CV.pdf">Download CV</a></div>
+    <ul class="links">
+      <li><a href="https://www.linkedin.com/in/manahil-shahid-37bb41322" target="_blank" rel="noopener"><span>LinkedIn</span>manahil-shahid</a></li>
+      <li><a href="https://www.instagram.com/manahilshahidkhan_/" target="_blank" rel="noopener"><span>Instagram</span>@manahilshahidkhan_</a></li>
+      <li><a href="tel:+447351902250"><span>Phone, UK</span>+44 7351 902250</a></li>
+      <li><a href="tel:+923705723429"><span>Phone, Pakistan</span>+92 370 5723429</a></li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer class="foot"><p>Manahil Shahid, Islamabad, Pakistan</p><a href="#top">Back to top</a></footer>
+
+<div class="dock" id="dock"><button type="button" data-cv>View CV</button><button type="button" id="dockQuick">Quick view</button><a href="mailto:manahil11shahid@gmail.com">Email me</a></div>
+
+<div class="cs" id="cs" role="dialog" aria-modal="true" aria-labelledby="csTitle" hidden>
+  <div class="cs__box">
+    <button class="btn btn--sm cs__close" type="button" id="csClose">Close</button>
+    <small id="csWhen"></small>
+    <h3 id="csTitle"></h3>
+    <div class="cs__grid" id="csGrid"></div>
+    <p class="cs__note" id="csNote" hidden></p>
+    <div class="cs__foot"><button class="btn btn--sm" type="button" id="csPrev">Previous project</button><span id="csPos"></span><button class="btn btn--sm btn--fill" type="button" id="csNext">Next project</button></div>
+  </div>
+</div>
+
+
+<div class="sheet" id="qv" role="dialog" aria-modal="true" aria-labelledby="qvTitle" hidden>
+  <div class="sheet__box">
+    <header class="sheet__head">
+      <div class="qv__id"><span class="brand__mark" aria-hidden="true">MS</span><div><p class="qv__kicker">At a glance</p><h2 id="qvTitle">Manahil Shahid</h2></div></div>
+      <button class="btn btn--sm" type="button" data-close>Close</button>
+    </header>
+    <div class="qv__grid">
+      <section class="qv__col">
+        <p class="qv__role">Graphic Designer | Digital Signage and Menu Design</p>
+        <p class="qv__now"><span class="dot" aria-hidden="true"></span>Senior Operations Associate at AIO, Islamabad</p>
+        <p class="qv__lede">I design kiosk screensavers, digital menu boards, logos and marketing videos for US restaurant brands. Software Engineering graduate, Gold Medalist and painter.</p>
+        <div class="qv__actions">
+          <button class="btn btn--fill btn--sm" type="button" data-cv>View CV</button>
+          <a class="btn btn--sm" href="Manahil-Shahid-CV.pdf" download="Manahil-Shahid-CV.pdf">Download CV</a>
+          <button class="btn btn--sm" type="button" data-copy-email>Copy email</button>
+        </div>
+        <ul class="qv__contact">
+          <li><span>Email</span><a href="mailto:manahil11shahid@gmail.com">manahil11shahid@gmail.com</a></li>
+          <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/manahil-shahid-37bb41322" target="_blank" rel="noopener">manahil-shahid</a></li>
+          <li><span>Phone</span><p class="qv__phones"><a href="tel:+447351902250">+44 7351 902250 (UK)</a><a href="tel:+923705723429">+92 370 5723429 (Pakistan)</a></p></li>
+        </ul>
+      </section>
+      <section class="qv__col">
+        <div class="qv__nums">
+          <div><b>35</b><span>restaurant clients with my designs live</span></div>
+          <div><b>2 hours</b><span>for menu images, down from a full day</span></div>
+          <div><b>Gold Medal</b><span>BSc (Hons) Software Engineering</span></div>
+          <div><b>2024 to 2026</b><span>from intern to Senior Operations Associate</span></div>
+        </div>
+        <h3 class="qv__h">Every week</h3>
+        <p class="qv__line">3 to 5 kiosk screensavers | 2 to 4 menu boards | 2 to 3 marketing videos | logos and banners</p>
+        <h3 class="qv__h">Skills and tools</h3>
+        <p class="qv__line">Graphic design, brand identity, digital signage, menu boards, photo retouching, motion graphics, UI/UX</p>
+        <p class="qv__line qv__line--tools">Canva | Adobe Photoshop | Figma | Higgsfield AI | Miro</p>
+        <h3 class="qv__h">Experience</h3>
+        <ol class="qv__tl">
+          <li><b>Senior Operations Associate</b><span>AIO | Aug 2026 to present</span></li>
+          <li><b>Operations Associate</b><span>AIO | Aug 2025 to Aug 2026</span></li>
+          <li><b>Operations Intern</b><span>AIO | May 2024 to Sep 2024</span></li>
+          <li><b>BSc (Hons) Software Engineering, Gold Medal</b><span>BIC University, affiliated with Liverpool John Moores University | 2022 to 2025</span></li>
+        </ol>
+      </section>
+    </div>
+  </div>
+</div>
+
+<div class="sheet sheet--cv" id="cvm" role="dialog" aria-modal="true" aria-labelledby="cvTitle" hidden>
+  <div class="sheet__box">
+    <header class="sheet__head">
+      <div><p class="qv__kicker">Curriculum vitae</p><h2 id="cvTitle">Manahil Shahid</h2></div>
+      <div class="cv__actions"><a class="btn btn--fill btn--sm" href="Manahil-Shahid-CV.pdf" download="Manahil-Shahid-CV.pdf">Download CV</a><button class="btn btn--sm" type="button" data-close>Close</button></div>
+    </header>
+    <div class="cv__pages">
+      <img src="cv-page-1.jpg" alt="CV page 1 of 2" width="1241" height="1754" loading="lazy">
+      <img src="cv-page-2.jpg" alt="CV page 2 of 2" width="1241" height="1754" loading="lazy">
+    </div>
+  </div>
+</div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Artwork viewer" hidden>
+  <button class="lb__close" type="button" id="lbClose">Close</button>
+  <button class="lb__nav lb__prev" type="button" id="lbPrev" aria-label="Previous artwork">Previous</button>
+  <figure><img id="lbImg" alt=""><figcaption><span id="lbTitle"></span><span id="lbSw" class="swatches"></span><span id="lbCount"></span></figcaption></figure>
+  <button class="lb__nav lb__next" type="button" id="lbNext" aria-label="Next artwork">Next</button>
+</div>
+<p class="toast" id="toast" role="status" aria-live="polite"></p>
+<script src="script.js" defer></script>
+</body>
+</html>
